@@ -9,7 +9,10 @@ $topic = "sms";
 $message = json_encode(array(
     "command"=>"send-sms",
     "data"=>array(
-        "recipient"=> "6281111111111",
+        "date_time"=>1629685778,
+        "expiration"=>1629685838,
+        "id"=>123456,
+        "recipient"=>"6281111111111",
         "message"=>"OTP Anda adalah 123456"
     )
 ));
