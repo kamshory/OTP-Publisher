@@ -13,10 +13,10 @@ $password = 'kamshory';
 $receiver = '0812661111';
 
 // Reference number from the transaction
-$reference = '463a9ebe94697b70842e37bb13a6955c';
+$reference = 'dc8db28ce90a3cacbc180c72769fa0cd';
 
 // Clear OTP received by reveicer
-$clearOTP = '029775';
+$clearOTP = '712032';
 
 // Additional data from the transaction (must be identic with request OTP)
 $params = array(
