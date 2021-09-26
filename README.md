@@ -25,7 +25,7 @@ To use Redis, please open the link https://redis.io/
 To use Mosquitto, please open the link https://mosquitto.org/
 
 
-![OTP-Pi Topology](https://raw.githubusercontent.com/kamshory/OTP-Pi/main/resource/www/lib.assets/images/topology.svg)
+![OTP-Pi Delivery](https://raw.githubusercontent.com/kamshory/OTP-Publisher/main/resource/www/lib.assets/images/otp-delivery.svg)
 
 ### Scenario 1 - App Server Can Access OTP-Pi 
 
