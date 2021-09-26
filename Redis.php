@@ -13,7 +13,7 @@ $message = json_encode(array(
         "expiration"=>1629685838,
         "id"=>123456,
         "recipient"=>"6281111111111",
-        "message"=>"OTP Anda adalah 123456"
+        "receiver"=>"OTP Anda adalah 123456"
     )
 ));
 
