@@ -1,7 +1,8 @@
 # OTP-Publisher
 
-https://github.com/kamshory/OTP-Pi 
+OTP-Publisher is an application to create, send and validate OTP or One Time Password using SMS (Short Message Service) and email. OTP-Publisher uses the PHP language which is widely used to build web-based applications. 
 
+Message will be consumed by OTP-Pi. See OTP-Pi project on https://github.com/kamshory/OTP-Pi
 
 | Method | Send SMS | Send Email | Block MSISDN | Unblock MSISDN | Create OTP | Validate OTP |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
