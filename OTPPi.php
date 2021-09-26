@@ -78,7 +78,7 @@ class OTPPi
         return $server_output;
     }
     
-    public function createOTP($receiver, $reference, $lifetime, $messageFormat, $params = array(), $subject = NULL)
+    public function createOTP($receiver, $id, $reference, $lifetime, $messageFormat, $params = array(), $subject = NULL)
     {
         $datetime = time();
         $expiration = $datetime + $lifetime;
@@ -100,6 +100,7 @@ class OTPPi
                 "expiration"=>$expiration,
                 "receiver"=>$receiver,
                 "message"=>$messageFormat,
+                "id"=>$id,
                 "reference"=>$reference,
                 "param1"=>$param1,
                 "param2"=>$param2,
@@ -132,6 +133,79 @@ class OTPPi
                 "param2"=>$param2,
                 "param3"=>$param3,
                 "param4"=>$param4
+            )
+        ));
+
+        $return = $this->requestHTTP($message);
+        return $return;
+    }
+
+    public function sendSMS($receiver, $id, $lifetime, $message)
+    {
+        $datetime = time();
+        $expiration = $datetime + $lifetime;
+
+        $message = json_encode(array(
+            "command"=>"send-sms",
+            "data"=>array(
+                "date_time"=>$datetime,
+                "expiration"=>$expiration,
+                "id"=>$id,
+                "receiver"=>$receiver,
+                "message"=>$message
+            )
+        ));
+
+        $return = $this->requestHTTP($message);
+        return $return;
+    }
+
+    public function sendEmail($receiver, $id, $lifetime, $message, $subject)
+    {
+        $datetime = time();
+        $expiration = $datetime + $lifetime;
+
+        $message = json_encode(array(
+            "command"=>"send-email",
+            "data"=>array(
+                "date_time"=>$datetime,
+                "expiration"=>$expiration,
+                "id"=>$id,
+                "receiver"=>$receiver,
+                "message"=>$message,
+                "subject"=>$subject
+            )
+        ));
+
+        $return = $this->requestHTTP($message);
+        return $return;
+    }
+
+    public function blockMSISDN($receiver)
+    {
+        $datetime = time();
+ 
+        $message = json_encode(array(
+            "command"=>"block-msisdn",
+            "data"=>array(
+                "date_time"=>$datetime,
+                "receiver"=>$receiver
+            )
+        ));
+
+        $return = $this->requestHTTP($message);
+        return $return;
+    }
+
+    public function unblockMSISDN($receiver)
+    {
+        $datetime = time();
+ 
+        $message = json_encode(array(
+            "command"=>"unblock-msisdn",
+            "data"=>array(
+                "date_time"=>$datetime,
+                "receiver"=>$receiver
             )
         ));
 
