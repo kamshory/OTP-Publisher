@@ -1,16 +1,21 @@
 <?php
-class OTPRedis extends OTPForwarder {
+require_once dirname(__FILE__)."/WSClient.php";
+class OTPWS extends OTPForwarder {
     public $username = '';
+    public $passkey = '';
     public $port = 6379;
     public $topic = 'sms';
+    public $path = '/';
+    public $clientID = 'php';
     public function __construct($config)
     {
         parent::__construct($config);
-        $this->username = $config['REDIS']['username'];
-        $this->passkey = $config['REDIS']['password'];
-        $this->host = $config['REDIS']['host'];
-        $this->port = $config['REDIS']['port'];
-        $this->topic = $config['REDIS']['topic'];
+        $this->username = $config['WS']['username'];
+        $this->passkey = $config['WS']['password'];
+        $this->host = $config['WS']['host'];
+        $this->port = $config['WS']['port'];
+        $this->topic = $config['WS']['topic'];
+        $this->path = $config['WS']['path'];
     }
     public function request($requestJSON)
     {
@@ -46,15 +51,38 @@ class OTPRedis extends OTPForwarder {
     }
     public function publish($topic, $message)
     {
-        if(!empty($this->password))
+        $headers = array(
+            'Authorization: Basic '.base64_encode($this->username.':'.$this->username),
+            'Content-type: application/json'
+        );
+        
+        $path = $this->path;
+
+        $pargs = array();
+        if(stripos($path, "?") !== false)
         {
-            $redis = new Predis\Client(['host' => $this->host, 'port' => $this->port, 'password' => $this->password]);
+            $arr = explode("?", $path, 2);
+            $path = $arr[0];
+            parse_str($arr[1], $pargs);
         }
-        else
+
+        $pargs['topic'] = $topic;
+        $arr2 = array();
+        foreach($pargs as $k=>$v)
         {
-            $redis = new Predis\Client(['host' => $this->host, 'port' => $this->port]);
+            $arr2[] = $k."=".rawurlencode($v);
         }
-        $redis->publish($topic, $message);
-        return true;
+        $str = implode("&", $arr2);
+
+        if($sp = websocket_open($this->host, $this->port, $headers, $errstr, 10, false, false, $path)) 
+        {
+            websocket_write($sp, $message);
+            $response = websocket_read($sp, $errorcode, $errstr); 
+            return true;
+        }
+        else 
+        {
+            return false;
+        }
     }
 }

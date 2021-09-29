@@ -1,16 +1,20 @@
 <?php
-class OTPRedis extends OTPForwarder {
+use PhpAmqpLib\Connection\AMQPStreamConnection;
+use PhpAmqpLib\Message\AMQPMessage;
+
+class OTPAMQP extends OTPForwarder {
     public $username = '';
+    public $passkey = '';
     public $port = 6379;
     public $topic = 'sms';
     public function __construct($config)
     {
         parent::__construct($config);
-        $this->username = $config['REDIS']['username'];
-        $this->passkey = $config['REDIS']['password'];
-        $this->host = $config['REDIS']['host'];
-        $this->port = $config['REDIS']['port'];
-        $this->topic = $config['REDIS']['topic'];
+        $this->username = $config['AMQP']['username'];
+        $this->passkey = $config['AMQP']['password'];
+        $this->host = $config['AMQP']['host'];
+        $this->port = $config['AMQP']['port'];
+        $this->topic = $config['AMQP']['topic'];
     }
     public function request($requestJSON)
     {
@@ -46,15 +50,12 @@ class OTPRedis extends OTPForwarder {
     }
     public function publish($topic, $message)
     {
-        if(!empty($this->password))
-        {
-            $redis = new Predis\Client(['host' => $this->host, 'port' => $this->port, 'password' => $this->password]);
-        }
-        else
-        {
-            $redis = new Predis\Client(['host' => $this->host, 'port' => $this->port]);
-        }
-        $redis->publish($topic, $message);
-        return true;
+        $connection = new AMQPStreamConnection($this->host, $this->port, $this->username, $this->passkey);
+        $channel = $connection->channel();
+
+        $channel->queue_declare($topic, false, false, false, false);
+
+        $msg = new AMQPMessage($message);
+        $channel->basic_publish($msg, '', $topic);
     }
 }
