@@ -865,11 +865,9 @@ By adding an independent system, you can create an OTP system with all of the ab
 ; You can select one of REST, REDIS, AMQP, MQTT or WS
 ; To use WS, start WebSocket Server with command php -q WSServer/bin/server.php
 method = WS
-username = kamshory
-password = kamshory
 manage_otp = true
-cache_max_age = 300
-cache_dir = C:\cache\otp
+cache_max_age = 30
+cache_dir = /var/otp-cache
 
 [REST]
 url = http://127.0.0.1:8899/api/otp
