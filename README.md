@@ -940,10 +940,7 @@ $params = array(
     '64875384'
 );
 
-$clearOTP = "329180";
-
 $response = $otppi->createOTP($receiver, $id, $reference, $lifetime, $messageFormat, $params, $subject);
-//$response = $otppi->validateOTP($receiver, $clearOTP, $reference, $params);
 
 echo json_encode($response);
 
