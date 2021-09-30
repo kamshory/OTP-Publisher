@@ -128,7 +128,7 @@ class MessageBroker implements MessageComponentInterface
       /**
        * Only send to same topic
        */
-      if($this->getTopic($client->resourceId) == $this->getTopic($from->resourceId))
+      if($this->getTopic($client->resourceId) == $this->getTopic($from->resourceId) && $client->resourceId != $from->resourceId)
       {     
         $client->send($message);
       }
