@@ -73,11 +73,12 @@ class OTPWS extends OTPForwarder {
             $arr2[] = $k."=".rawurlencode($v);
         }
         $str = implode("&", $arr2);
+        $path .= "?$str";
 
         if($sp = websocket_open($this->host, $this->port, $headers, $errstr, 10, false, false, $path)) 
         {
             websocket_write($sp, $message);
-            $response = websocket_read($sp, $errorcode, $errstr); 
+            //$response = websocket_read($sp, $errorcode, $errstr); 
             return true;
         }
         else 
