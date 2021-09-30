@@ -903,6 +903,12 @@ path = /ws/
 
 For WS, use `127.0.0.1` instead of `localhost`
 
+### Start WebSocket Server
+
+```bash
+php -q WSServer/bin/server.php
+```
+
 ### Request OTP
 
 ```php
