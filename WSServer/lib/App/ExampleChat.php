@@ -31,11 +31,10 @@ class ExampleChat implements MessageComponentInterface
     if(isset($headers['authorization']))
     {
       $authorization = $headers['authorization'];
-      echo $authorization."\r\n\r\n";
-      if(stripos($authorization, ': ') !== false && stripos($authorization, ' Basic ') !== false && $this->validUser($authorization))
+      if(stripos($authorization, 'Basic ') !== false && $this->validUser($authorization))
       {
         $this->clients->attach($conn);
-        $this->setTopic($conn->resourceId, $query['topic']);
+        $this->setTopic($conn->resourceId, @$query['topic']);
       }
     }
     
@@ -43,13 +42,7 @@ class ExampleChat implements MessageComponentInterface
   }
   public function validUser($authorization)
   {
-    $arr = explode(':', $authorization, 2);
-    $auth = ltrim($arr[1], ' ');
-    if(stripos($auth, 'Basic ') == 0)
-    {
-      $auth = substr($auth, strlen('Basic '));
-    }
-    $decoded = base64_encode(trim($auth));
+    $decoded = base64_encode(trim($authorization));
     $arr2 = explode(':', $decoded);
     $username = isset($arr2[0])?$arr2[0]:'';
     $password = isset($arr2[1])?$arr2[1]:'';
@@ -73,6 +66,7 @@ class ExampleChat implements MessageComponentInterface
     {
       if($this->getTopic($client->resourceId) == $this->getTopic($from->resourceId))
       {
+        
         $client->send($message);
       }
     }
