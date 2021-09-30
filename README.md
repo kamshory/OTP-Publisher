@@ -863,6 +863,7 @@ By adding an independent system, you can create an OTP system with all of the ab
 [GENERAL]
 
 ; You can select one of REST, REDIS, AMQP, MQTT or WS
+; To use WS, start WebSocket Server with command php -q WSServer/bin/server.php
 method = WS
 username = kamshory
 password = kamshory
