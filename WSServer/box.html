@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Chat Box</title>
+<style type="text/css">
+.planet-chat-box{
+	width:300px;
+	border:1px solid #DDDDDD;
+}
+.message-container{
+	height:360px;
+	overflow:auto;
+}
+.chat-box-header{
+	background-color:#3d91bf;
+	position:relative;
+}
+.chat-box-control{
+	z-index:10;
+	position:absolute;
+	right:0;
+	top:0;
+	width:48px;
+	padding-top:8px;
+	padding-right:10px;
+	text-align:right;
+}
+.chat-box-control > span{
+	display:inline-block;
+	background:red;
+	text-align:center;
+}
+.chat-box-control > span a{
+	display:inline-block;
+	width:20px;
+	height:20px;
+	background:red;
+	text-align:center;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+.chat-box-header h3{
+	margin:0;
+	padding:0;
+}
+.chat-box-header h3 a{
+	padding:8px 40px 8px 10px;
+	display:block;
+	color:#FFFFFF;
+	text-decoration:none;
+}
+
+
+.message-item{
+	padding:4px 10px;
+}
+.message-item:nth-child(odd){
+	background:#FAFAFA;
+}
+.message-item:nth-child(event){
+	background:#FDFDFD;
+}
+.message-form{
+	padding:10px 10px;
+	position:relative;
+}
+.message-form input[type="text"]{
+	padding:6px 10px;
+	display:block;
+	width:100%;
+	box-sizing:border-box;
+	outline:none;
+	border:1px solid #EEEEEE;
+}
+.message-form input[type="text"]:hover{
+	outline:none;
+}
+
+
+</style>
+</head>
+
+<body data-theme="a">
+
+<div class="container">
+	<div class="planet-chat-box" data-partner="22222">
+    	<div class="chat-box-header">
+        	<div class="chat-box-control">
+            	<span><a href="#" title="Close chat">X</a></span>
+            	<span><a href="#" title="Setting">I</a></span>
+            </div>
+        	<h3><a href="kamshory">Kamshory</a></h3>
+        </div>
+    	<div class="message-container">
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        	<div class="message-item">
+            	<div class="message-time">2020-10-10 10:10:10</div>
+            	<div class="message-text">Halo. Selamat pagi semuanya...</div>
+            	<div class="message-controller">
+                	<span>Delete</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="message-form">
+            <form class="chat-form" action="" method="post">
+            	<input type="text" class="text-message" placeholder="Type your message here...">
+            </form>
+        </div>
+        
+    </div>
+</div>
+
+</body>
+</html>

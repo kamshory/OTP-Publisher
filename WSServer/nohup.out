@@ -1,0 +1,1937 @@
+Chat server started!
+Chat server started!
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => tes
+                        )
+
+                    [timestamp] => 1580188076767
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801880765e2fc1acbb2d6
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messageChat server started!
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 2
+                    [receiver_id] => 2
+                    [message] => Array
+                        (
+                            [text] => ok
+                        )
+
+                    [timestamp] => 1580188121963
+                    [sender_id] => 162402
+                    [unique_id] => 162402_2_15801881215e2fc1d9eb129
+                    [sender_name] => Susi
+                    [receiver_name] => Kamshory MT
+                    [partner_name] => Kamshory MT
+                    [partner_uri] => kamshory
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 2
+                    [receiver_id] => 2
+                    [message] => Array
+                        (
+                            [text] => ok
+                        )
+
+                    [timestamp] => 1580188130421
+                    [sender_id] => 162402
+                    [unique_id] => 162402_2_15801881305e2fc1e266b50
+                    [sender_name] => Susi
+                    [receiver_name] => Kamshory MT
+                    [partner_name] => Kamshory MT
+                    [partner_uri] => kamshory
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 2
+                    [receiver_id] => 2
+                    [message] => Array
+                        (
+                            [text] => ok lah
+                        )
+
+                    [timestamp] => 1580188138077
+                    [sender_id] => 162402
+                    [unique_id] => 162402_2_15801881385e2fc1ea12da3
+                    [sender_name] => Susi
+                    [receiver_name] => Kamshory MT
+                    [partner_name] => Kamshory MT
+                    [partner_uri] => kamshory
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => yeeeee
+                        )
+
+                    [timestamp] => 1580188151615
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881515e2fc1f7960d0
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => jbjbj
+                        )
+
+                    [timestamp] => 1580188154358
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881545e2fc1fa57794
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => sduvsdv
+                        )
+
+                    [timestamp] => 1580188155366
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881555e2fc1fb596cd
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => sdv
+                        )
+
+                    [timestamp] => 1580188155762
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881555e2fc1fbba265
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => sdv
+                        )
+
+                    [timestamp] => 1580188155983
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881555e2fc1fbf0025
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => sdv
+                        )
+
+                    [timestamp] => 1580188156188
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881565e2fc1fc2df89
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => sdv
+                        )
+
+                    [timestamp] => 1580188156385
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881565e2fc1fc5dfea
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => sd
+                        )
+
+                    [timestamp] => 1580188156559
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881565e2fc1fc8866d
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => vSudah makan?
+                        )
+
+                    [timestamp] => 1580188160553
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881605e2fc2008702e
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => Sudah bobo?
+                        )
+
+                    [timestamp] => 1580188168267
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881685e2fc2084135c
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => Haloooooo
+                        )
+
+                    [timestamp] => 1580188174512
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881745e2fc20e7d1f4
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 162402
+                    [receiver_id] => 162402
+                    [message] => Array
+                        (
+                            [text] => sdhcishddsvdsv
+                        )
+
+                    [timestamp] => 1580188176833
+                    [sender_id] => 2
+                    [unique_id] => 2_162402_15801881765e2fc210cb6d9
+                    [sender_name] => Kamshory MT
+                    [receiver_name] => Susi
+                    [partner_name] => Susi
+                    [partner_uri] => susi
+                )
+
+        )
+
+)
+Failed to save messagePHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+PHP Notice:  Undefined index: member_name in /var/www/html/chat/lib/App/Chat.php on line 75
+Array
+(
+    [command] => send-message
+    [data] => Array
+        (
+            [0] => Array
+                (
+                    [partner_id] => 2
+                    [receiver_id] => 2
+                    [message] => Array
+                        (
+                            [text] => ok
+                        )
+
+                    [timestamp] => 1580188181432
+                    [sender_id] => 162402
+                    [unique_id] => 162402_2_15801881815e2fc215696a3
+                    [sender_name] => Susi
+                    [receiver_name] => Kamshory MT
+                    [partner_name] => Kamshory MT
+                    [partner_uri] => kamshory
+                )
+
+        )
+
+)
+Failed to save messageChat server started!
+Chat server started!
+Chat server started!
+Chat server started!
+PHP Fatal error:  Uncaught exception 'React\Socket\ConnectionException' with message 'Could not bind to tcp://0.0.0.0:8080: Address already in use' in /var/www/html/chat/vendor/react/socket/React/Socket/Server.php:24
+Stack trace:
+#0 /var/www/html/chat/vendor/cboden/ratchet/src/Ratchet/Server/IoServer.php(60): React\Socket\Server->listen(8080, '0.0.0.0')
+#1 /var/www/html/chat/bin/server.php(14): Ratchet\Server\IoServer::factory(Object(Ratchet\WebSocket\WsServer), 8080)
+#2 {main}
+  thrown in /var/www/html/chat/vendor/react/socket/React/Socket/Server.php on line 24
+Chat server started!
+Chat server started!
+Chat server started!
+Chat server started!
+Could not open input file: /var/www/html/chat/bin/server.php
+Could not open input file: /var/www/html/chat/bin/server.php
+PHP Notice:  A non well formed numeric value encountered in /var/www/html/lib.websocket/lib/App/Chat.php on line 368
+PHP Notice:  A non well formed numeric value encountered in /var/www/html/lib.websocket/lib/App/Chat.php on line 368
+PHP Notice:  A non well formed numeric value encountered in /var/www/html/lib.websocket/lib/App/Chat.php on line 368
+PHP Notice:  A non well formed numeric value encountered in /var/www/html/lib.websocket/lib/App/Chat.php on line 368
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined offset: 1 in /var/www/html/lib.websocket/vendor/guzzle/parser/Guzzle/Parser/Message/MessageParser.php on line 36
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined offset: 1 in /var/www/html/lib.websocket/vendor/guzzle/parser/Guzzle/Parser/Message/MessageParser.php on line 36
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined offset: 1 in /var/www/html/lib.websocket/vendor/guzzle/parser/Guzzle/Parser/Message/MessageParser.php on line 36
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined offset: 1 in /var/www/html/lib.websocket/vendor/guzzle/parser/Guzzle/Parser/Message/MessageParser.php on line 36
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 274
+PHP Notice:  Undefined index: member_id in /var/www/html/lib.websocket/lib/App/Chat.php on line 317
+PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /var/www/html/lib.websocket/lib/App/Chat.php on line 970
+PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /var/www/html/lib.websocket/lib/App/Chat.php on line 974
+PHP Warning:  mysqli::close(): Couldn't fetch mysqli in /var/www/html/lib.websocket/lib/App/Chat.php on line 975
+PHP Warning:  mysqli::mysqli(): (HY000/1040): Too many connections in /var/www/html/lib.websocket/lib/App/Chat.php on line 1434
+PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /var/www/html/lib.websocket/lib/App/Chat.php on line 1448
+PHP Fatal error:  Call to a member function fetch_assoc() on a non-object in /var/www/html/lib.websocket/lib/App/Chat.php on line 1449
