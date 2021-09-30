@@ -903,7 +903,11 @@ path = /ws/
 
 For WS, use `127.0.0.1` instead of `localhost`
 
-### Start WebSocket Server
+### WebSocket Server
+
+OTP-Publisher include WebSocket Message Broker. This server will broadcast the message to all the connected client with same topic. Basic authorization required to connect to this server.
+
+**Start WebSocket Server**
 
 ```bash
 php -q WSServer/bin/server.php
@@ -1105,7 +1109,6 @@ $response = $otppi->unblockMSISDN($receiver);
 echo json_encode($response);
 ?>
 ```
-
 
 ## Subscribe to Our YouTube Channel
 
