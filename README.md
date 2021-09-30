@@ -853,7 +853,9 @@ php -q WSServer/bin/server.php
 ```
 
 
-## Use Instance
+## Instance Publisher
+
+By adding an independent system, you can create an OTP system with all of the above methods. This system consists of being able to create OTP, validate OTP, send SMS, send email, block MSISDN, and unblock MSISDN. You can also take advantage of the WebSocket server which can be a message broker so you don't need RabbitMQ, Redis, MQTT, and also don't need to connect directly to OTP-Pi via REST API.
 
 ### Configuration
 
