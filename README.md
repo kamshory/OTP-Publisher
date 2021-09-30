@@ -1114,7 +1114,11 @@ Response Code List
 | 1000 | SERIAL_PORT_NULL      |
 | 1100 | UNAUTHORIZED          |
 | 1101 | NO_DEVICE_CONNECTED   |
-| 1102 | FAILED                |s
+| 1102 | FAILED                |
+| 1201 | DUPLICATED            |
+| 1202 | INVALID_OTP           |
+
+
 
 ## Subscribe to Our YouTube Channel
 
