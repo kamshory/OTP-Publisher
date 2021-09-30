@@ -1114,7 +1114,7 @@ Response Code List
 | 1000 | SERIAL_PORT_NULL      |
 | 1100 | UNAUTHORIZED          |
 | 1101 | NO_DEVICE_CONNECTED   |
-| 1102 | FAILED                |
+| 1102 | FAILED                |s
 
 ## Subscribe to Our YouTube Channel
 
