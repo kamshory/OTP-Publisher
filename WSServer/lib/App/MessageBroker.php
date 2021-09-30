@@ -1,6 +1,5 @@
 <?php
 
-
 namespace App;
 
 use Ratchet\MessageComponentInterface;
@@ -12,7 +11,6 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 use App\HTPasswd;
 
 include dirname(__FILE__)."/autoload.php";
-
 
 class MessageBroker implements MessageComponentInterface 
 {
@@ -49,14 +47,10 @@ class MessageBroker implements MessageComponentInterface
       if(stripos($authorization, 'Basic ') !== false && $this->isValidUser($authorization))
       {
         /**
-         * Set topic for resourceId
+         * Set topic for connected client
          */
         $this->setTopic($conn->resourceId, @$query['topic']);
         $this->clients->attach($conn);
-      }
-      else
-      {
-        echo "Invalid User\r\n";
       }
     }
   }
@@ -68,10 +62,7 @@ class MessageBroker implements MessageComponentInterface
     {
       $authorization = substr($authorization, strlen('Basic '));
     }
-    if(isset($this->userMatch) 
-    && !empty($this->userMatch)
-    && isset($this->userMatch[$authorization])
-    )
+    if(isset($this->userMatch) && !empty($this->userMatch) && isset($this->userMatch[$authorization]))
     {
       return true;
     }
