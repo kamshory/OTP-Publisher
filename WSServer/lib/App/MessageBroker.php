@@ -26,7 +26,6 @@ class MessageBroker implements MessageComponentInterface
   public function onOpen(ConnectionInterface $conn) 
   {
     $headers = $conn->WebSocket->request->getHeaders();
-    
     $query = $conn->WebSocket->request->getQuery()->toArray();
     if(isset($headers['authorization']))
     {

@@ -7,10 +7,8 @@ class OTPPi{
     public $password = "";
     public function __construct()
     {
- 
         $configLoader = new ConfigLoader();
-        $this->config = $configLoader->load();
-        
+        $this->config = $configLoader->load();    
  
         $this->method = $this->config['GENERAL']['method'];
         $this->username = $this->config['GENERAL']['username'];
