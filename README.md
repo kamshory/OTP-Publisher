@@ -1111,10 +1111,11 @@ Response Code List
 | RC   | Description           |
 | ---- | --------------------- |
 | 0000 | SUCCESS               |
-| 1000 | SERIAL_PORT_NULL      |
+| 1000 | SERIAL PORT NULL      |
 | 1100 | UNAUTHORIZED          |
-| 1101 | NO_DEVICE_CONNECTED   |
+| 1101 | NO DEVICE CONNECTED   |
 | 1102 | FAILED                |
+| 1200 | OTP NOT MATCH         |
 
 ## Subscribe to Our YouTube Channel
 
