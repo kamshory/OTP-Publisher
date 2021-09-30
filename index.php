@@ -1,7 +1,7 @@
 <?php
 require_once dirname(__FILE__)."/otp-pi/autoload.php";
 
-$otppi = new OTPPi(OTPMethod::REST, "user", "pass");
+$otppi = new OTPPi("user", "pass");
 
 /**
  * Parameters to be sent on request OTP

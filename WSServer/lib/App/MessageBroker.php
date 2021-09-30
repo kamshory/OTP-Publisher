@@ -9,6 +9,7 @@ use PhpAmqpLib\Connection;
 use React\EventLoop\StreamSelectLoop;
 
 use PhpAmqpLib\Connection\AMQPStreamConnection;
+use App\HTPasswd;
 
 include dirname(__FILE__)."/autoload.php";
 
@@ -19,8 +20,22 @@ class MessageBroker implements MessageComponentInterface
   protected $connectionMap = array();
   protected $clientTopic = array();
   public $loop = NULL;
-  public function __construct()
+  protected $userPass = array();
+  protected $userMatch = array();
+  public function __construct($userFile)
   {
+    if(file_exists($userFile))
+    {
+      $content = file($userFile);
+      foreach($content as $line)
+      {
+        if(stripos($line, ":"))
+        {
+          $arr = explode(":", $line, 2);
+          $this->userPass[$arr[0]] = array($arr[0], $arr[1]);
+        }
+      }
+    }
     $this->clients = new \SplObjectStorage();
   }
 
@@ -31,7 +46,7 @@ class MessageBroker implements MessageComponentInterface
     if(isset($headers['authorization']))
     {
       $authorization = $headers['authorization'];
-      if(stripos($authorization, 'Basic ') !== false && $this->validUser($authorization))
+      if(stripos($authorization, 'Basic ') !== false && $this->isValidUser($authorization))
       {
         /**
          * Set topic for resourceId
@@ -39,21 +54,70 @@ class MessageBroker implements MessageComponentInterface
         $this->setTopic($conn->resourceId, @$query['topic']);
         $this->clients->attach($conn);
       }
+      else
+      {
+        echo "Invalid User\r\n";
+      }
     }
   }
 
-  public function validUser($authorization)
+  public function isValidUser($authorization)
   {
-    $decoded = base64_encode(trim($authorization));
+    $authorization = trim($authorization);
+    if(stripos($authorization, 'Basic ') === 0)
+    {
+      $authorization = substr($authorization, strlen('Basic '));
+    }
+    if(isset($this->userMatch) 
+    && !empty($this->userMatch)
+    && isset($this->userMatch[$authorization])
+    )
+    {
+      return true;
+    }
+    $decoded = base64_decode(trim($authorization));
     $arr2 = explode(':', $decoded);
     $username = isset($arr2[0])?$arr2[0]:'';
     $password = isset($arr2[1])?$arr2[1]:'';
-    return $this->userMatch($username, $password);
+    return $this->isUserMatch($username, $password);
   }
 
-  public function userMatch($username, $password)
+  public function isUserMatch($username, $password)
   {
-    return true;
+    echo " $username, $password ";
+    if(!isset($this->userPass[$username]))
+    {
+      return false;
+    }
+    $passStored = $this->userPass[$username][1];
+    if(stripos($passStored, '{SHA}') === 0)
+    {
+      if(HTPasswd::crypt_sha1($password) === $passStored)
+      {
+        return true;
+      }
+      else
+      {
+        return false;
+      }
+    }
+    else if(stripos($passStored, '$apr1$') === 0)
+    {
+      if(HTPasswd::check($password, $passStored))
+      {
+        echo "VALID ";
+        return true;
+      }
+      else
+      {
+        echo "INVALID ";
+        return false;
+      }
+    }
+    else
+    {
+      return false;
+    }
   }
 
   public function setTopic($resourceId, $topic)
