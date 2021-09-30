@@ -848,6 +848,20 @@ When a client sends a message, the message will be sent to all clients by topic 
 
 The OTP-Pi never sends messages to the WSMessageBroker server. OTP-Pi only accepts messages according to the desired topic.
 
+## WebSocket Server
+
+OTP-Publisher include WebSocket Message Broker. This server will broadcast the message to all the connected client with same topic. Basic authorization required to connect to this server.
+
+### User Account
+
+User accounts are stored on file `WSServer/bin/.htpasswd`
+
+### Start WebSocket Server
+
+```bash
+php -q WSServer/bin/server.php
+```
+
 
 ## Use Instance
 
@@ -902,16 +916,6 @@ path = /ws/
 **Note**
 
 For WS, use `127.0.0.1` instead of `localhost`
-
-### WebSocket Server
-
-OTP-Publisher include WebSocket Message Broker. This server will broadcast the message to all the connected client with same topic. Basic authorization required to connect to this server.
-
-**Start WebSocket Server**
-
-```bash
-php -q WSServer/bin/server.php
-```
 
 ### Request OTP
 

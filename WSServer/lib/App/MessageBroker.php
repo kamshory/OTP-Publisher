@@ -52,8 +52,39 @@ class MessageBroker implements MessageComponentInterface
         $this->setTopic($conn->resourceId, @$query['topic']);
         $this->clients->attach($conn);
       }
+      else
+      {
+        $conn->close();
+      }
     }
   }
+
+  
+  public function onMessage(ConnectionInterface $from, $message) 
+  {
+    foreach($this->clients as $client)
+    {
+      /**
+       * Only send to same topic
+       */
+      if($this->getTopic($client->resourceId) == $this->getTopic($from->resourceId) && $client->resourceId != $from->resourceId)
+      {     
+        $client->send($message);
+      }
+    }
+  }
+
+  public function onClose(ConnectionInterface $conn) 
+  {
+    $this->unsetTopic($conn->resourceId);
+  }
+
+  public function onError(ConnectionInterface $conn, \Exception $e) 
+  {
+    $this->unsetTopic($conn->resourceId);
+    $conn->close();        
+  }
+
 
   public function isValidUser($authorization)
   {
@@ -121,30 +152,5 @@ class MessageBroker implements MessageComponentInterface
   {
     unset($this->clientTopic[$resourceId]);
   }
-  public function onMessage(ConnectionInterface $from, $message) 
-  {
-    foreach($this->clients as $client)
-    {
-      /**
-       * Only send to same topic
-       */
-      if($this->getTopic($client->resourceId) == $this->getTopic($from->resourceId) && $client->resourceId != $from->resourceId)
-      {     
-        $client->send($message);
-      }
-    }
-  }
-
-  public function onClose(ConnectionInterface $conn) 
-  {
-    $this->unsetTopic($conn->resourceId);
-  }
-
-  public function onError(ConnectionInterface $conn, \Exception $e) 
-  {
-    $this->unsetTopic($conn->resourceId);
-    $conn->close();        
-  }
-
     
 }
