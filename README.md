@@ -175,16 +175,6 @@ $resp1 = $otp->createOTP($receiver, $id, $reference, $lifetime, $messageFormat, 
 $createResponse = json_decode($resp1, true);
 echo "Create OTP : ".$createResponse['response_code']."<br>\r\n";
 
-/*
-Response Code List
-==============================
-SUCCESS              = "0000";
-SERIAL_PORT_NULL     = "1000";
-UNAUTHORIZED         = "1100";
-NO_DEVICE_CONNECTED  = "1101";
-FAILED               = "1102";
-*/
-
 ?>
 ```
 
@@ -1113,6 +1103,18 @@ $response = $otppi->unblockMSISDN($receiver);
 echo json_encode($response);
 ?>
 ```
+
+## Appendix
+
+Response Code List
+
+| RC   | Description           |
+| ---- | --------------------- |
+| 0000 | SUCCESS               |
+| 1000 | SERIAL_PORT_NULL      |
+| 1100 | UNAUTHORIZED          |
+| 1101 | NO_DEVICE_CONNECTED   |
+| 1102 | FAILED                |
 
 ## Subscribe to Our YouTube Channel
 
