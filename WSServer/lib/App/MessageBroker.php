@@ -13,7 +13,7 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 include dirname(__FILE__)."/autoload.php";
 
 
-class ExampleChat implements MessageComponentInterface 
+class MessageBroker implements MessageComponentInterface 
 {
   protected $clients;
   protected $connectionMap = array();

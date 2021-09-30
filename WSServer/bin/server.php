@@ -6,7 +6,7 @@ use App\ExampleChat;
 
 $server = IoServer::factory(
     new WsServer(
-        new ExampleChat()
+        new MessageBroker()
     )
   , 9000
 );
