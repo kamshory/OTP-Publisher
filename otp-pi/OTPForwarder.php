@@ -134,11 +134,11 @@ class OTPForwarder {
             }  
         } 
     }
-    function rejectRequest($requestJSON, $e)
+    function rejectRequest($requestJSON, $responseCode, $e)
     {
         return array(
             'command'=>'request-otp',
-            'response-code'=>'1102',
+            'response-code'=>$responseCode,
             'error_message'=>$e->getMessage(),
             'data'=>new StdClass()
         );
