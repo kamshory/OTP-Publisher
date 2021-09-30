@@ -145,6 +145,27 @@ class OTPPi{
         return $return;
     }
 
+    public function sendMessage($receiver, $id, $lifetime, $message, $subject)
+    {
+        $datetime = time();
+        $expiration = $datetime + $lifetime;
+
+        $message = array(
+            "command"=>"send-message",
+            "data"=>array(
+                "date_time"=>$datetime,
+                "expiration"=>$expiration,
+                "id"=>$id,
+                "receiver"=>$receiver,
+                "message"=>$message,
+                "subject"=>$subject
+            )
+        );
+
+        $return = $this->request($message);
+        return $return;
+    }
+
     public function blockMSISDN($receiver)
     {
         $datetime = time();

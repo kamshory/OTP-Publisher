@@ -851,6 +851,58 @@ The OTP-Pi never sends messages to the WSMessageBroker server. OTP-Pi only accep
 
 ## Use Instance
 
+### Configuration
+
+```ini
+[GENERAL]
+method = WS
+username = kamshory
+password = kamshory
+manage_otp = true
+cache_max_age = 300
+cache_dir = C:\cache\otp
+
+[REST]
+
+url = http://127.0.0.1:8899/api/otp
+username = kamshory
+password = kamshory 
+
+[REDIS]
+host = 127.0.0.1
+port = 6379
+username = kamshory 
+password = kamshory 
+topic = sms
+
+[AMQP]
+host = 127.0.0.1
+port = 5672
+username = guest 
+password = guest 
+topic = sms
+
+[MQTT]
+host = 127.0.0.1
+port = 1883
+username = user
+password = pass
+topic = sms
+client_id = php
+
+[WS]
+host = 127.0.0.1
+port = 9000
+username = kamshory
+password = kamshory
+topic = sms
+path = /ws/
+```
+
+**Note**
+
+For WS, use `127.0.0.1` instead of `localhost`
+
 ### Request OTP
 
 ```php
@@ -930,6 +982,124 @@ $response = $otppi->validateOTP($receiver, $clearOTP, $reference, $params);
 
 echo json_encode($response);
 
+?>
+```
+
+### Send Message
+
+```php
+<?php
+require_once dirname(__FILE__)."/otp-pi/autoload.php";
+
+$otppi = new OTPPi(OTPMethod::REST, "user", "pass");
+
+/**
+ * Parameters to be sent on request OTP
+ */
+
+$receiver = '0812661111';
+
+// OTP ID
+$id = time();
+
+// OTP life time (in second)
+$lifetime = 60;
+
+$message = "OTP Anda adalah 123456";
+$subject = "OTP Anda";
+
+$response = $otppi->sendMessage($receiver, $id, $lifetime, $message, $subject);
+
+echo json_encode($response);
+?>
+```
+
+### Send SMS
+
+```php
+<?php
+require_once dirname(__FILE__)."/otp-pi/autoload.php";
+
+$otppi = new OTPPi(OTPMethod::REST, "user", "pass");
+
+/**
+ * Parameters to be sent on request OTP
+ */
+
+$receiver = '0812661111';
+
+// OTP ID
+$id = time();
+
+// OTP life time (in second)
+$lifetime = 60;
+
+$message = "OTP Anda adalah 123456";
+
+$response = $otppi->sendSMS($receiver, $id, $lifetime, $message);
+
+echo json_encode($response);
+?>
+```
+
+### Send Email
+
+```php
+<?php
+require_once dirname(__FILE__)."/otp-pi/autoload.php";
+
+$otppi = new OTPPi(OTPMethod::REST, "user", "pass");
+
+/**
+ * Parameters to be sent on request OTP
+ */
+
+$receiver = 'user@domain.tld';
+
+// OTP ID
+$id = time();
+
+// OTP life time (in second)
+$lifetime = 60;
+
+$message = "OTP Anda adalah 123456";
+$subject = "OTP Anda";
+
+$response = $otppi->sendEmail($receiver, $id, $lifetime, $message, $subject);
+
+echo json_encode($response);
+?>
+```
+
+### Block MSISDN
+
+```php
+<?php
+require_once dirname(__FILE__)."/otp-pi/autoload.php";
+
+$otppi = new OTPPi(OTPMethod::REST, "user", "pass");
+
+$receiver = '0812661111';
+
+$response = $otppi->blockMSISDN($receiver);
+
+echo json_encode($response);
+?>
+```
+
+### Unblock MSISDN
+
+```php
+<?php
+require_once dirname(__FILE__)."/otp-pi/autoload.php";
+
+$otppi = new OTPPi(OTPMethod::REST, "user", "pass");
+
+$receiver = '0812661111';
+
+$response = $otppi->unblockMSISDN($receiver);
+
+echo json_encode($response);
 ?>
 ```
 
