@@ -1116,10 +1116,8 @@ Response Code List
 | 1101 | NO DEVICE CONNECTED   |
 | 1102 | FAILED                |
 | 1201 | DUPLICATED            |
-| 1202 | INVALID_OTP           |
-
-
-| 1200 | OTP NOT MATCH         |
+| 1202 | INVALID OTP           |
+| 1203 | EXPIRED               |
 
 ## Subscribe to Our YouTube Channel
 

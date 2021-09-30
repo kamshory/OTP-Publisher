@@ -34,7 +34,7 @@ class OTPMQTT extends OTPForwarder {
             }
             catch(DuplicatedException $e)
             {
-                return $this->rejectRequest($requestJSON, "1201", $e);
+                return $this->rejectRequest($requestJSON, ResponseCode::DUPLICATED, $e);
             }
         }
         else if($this->manageOTP && $requestJSON['command'] ==  'validate-otp')

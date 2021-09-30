@@ -36,7 +36,7 @@ class OTPWS extends OTPForwarder {
             }
             catch(DuplicatedException $e)
             {
-                return $this->rejectRequest($requestJSON, "1201", $e);
+                return $this->rejectRequest($requestJSON, ResponseCode::DUPLICATED, $e);
             }
         }
         else if($this->manageOTP && $requestJSON['command'] ==  'validate-otp')
@@ -78,7 +78,6 @@ class OTPWS extends OTPForwarder {
         if($sp = websocket_open($this->host, $this->port, $headers, $errstr, 10, false, false, $path)) 
         {
             websocket_write($sp, $message);
-            //$response = websocket_read($sp, $errorcode, $errstr); 
             return true;
         }
         else 

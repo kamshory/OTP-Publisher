@@ -83,6 +83,8 @@ class OTPForwarder {
         
         $reference = $requestJSON['data']['reference'];
         $filename = $this->fixPath(rtrim($this->cacheDir, '/').'/'.md5($reference).".bin");
+
+        $responseCode = ResponseCode::INVALID_OTP;
         
         $match = false;
         $expire = false;
@@ -94,21 +96,27 @@ class OTPForwarder {
             if($json['expiration'] > time())
             {
                 $hash = $this->createHash($reference, $plainOTP, $receiver, $param1, $param2, $param3, $param4);
-                $match = ($json['hash'] == $hash);          
+                $match = ($json['hash'] == $hash);    
+                $responseCode = ($match)?ResponseCode::SUCCESS:ResponseCode::INVALID_OTP;      
             }      
             else
             {
                 $expire = true;
+                $responseCode = ResponseCode::EXPIRE;
             }
             if(($expire || $match))
             {
                 @unlink($filename);
             }
         }
+        else
+        {
+            $responseCode = ResponseCode::INVALID_OTP;
+        }
  
         $result = array(
             'command'=>'validate-otp',
-            'response_code'=>($match)?'0000':'1102',
+            'response_code'=>$responseCode,
             'data'=>array(
                 'date_time'=>$datetime,
                 'receiver'=>$receiver,
