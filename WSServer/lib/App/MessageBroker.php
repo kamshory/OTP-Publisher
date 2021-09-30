@@ -23,6 +23,7 @@ class MessageBroker implements MessageComponentInterface
   {
     $this->clients = new \SplObjectStorage();
   }
+
   public function onOpen(ConnectionInterface $conn) 
   {
     $headers = $conn->WebSocket->request->getHeaders();
@@ -32,13 +33,15 @@ class MessageBroker implements MessageComponentInterface
       $authorization = $headers['authorization'];
       if(stripos($authorization, 'Basic ') !== false && $this->validUser($authorization))
       {
-        $this->clients->attach($conn);
+        /**
+         * Set topic for resourceId
+         */
         $this->setTopic($conn->resourceId, @$query['topic']);
+        $this->clients->attach($conn);
       }
     }
-    
-    
   }
+
   public function validUser($authorization)
   {
     $decoded = base64_encode(trim($authorization));
@@ -47,25 +50,34 @@ class MessageBroker implements MessageComponentInterface
     $password = isset($arr2[1])?$arr2[1]:'';
     return $this->userMatch($username, $password);
   }
+
   public function userMatch($username, $password)
   {
     return true;
   }
+
   public function setTopic($resourceId, $topic)
   {
     $this->clientTopic[$resourceId] = $topic;
   }
+
   public function getTopic($resourceId)
   {
     return isset($this->clientTopic[$resourceId])?$this->clientTopic[$resourceId]:'';
+  }
+  public function unsetTopic($resourceId)
+  {
+    unset($this->clientTopic[$resourceId]);
   }
   public function onMessage(ConnectionInterface $from, $message) 
   {
     foreach($this->clients as $client)
     {
+      /**
+       * Only send to same topic
+       */
       if($this->getTopic($client->resourceId) == $this->getTopic($from->resourceId))
-      {
-        
+      {     
         $client->send($message);
       }
     }
@@ -73,12 +85,12 @@ class MessageBroker implements MessageComponentInterface
 
   public function onClose(ConnectionInterface $conn) 
   {
-    unset($this->clientTopic[$conn->resourceId]);
+    $this->unsetTopic($conn->resourceId);
   }
 
   public function onError(ConnectionInterface $conn, \Exception $e) 
   {
-    unset($this->clientTopic[$conn->resourceId]);
+    $this->unsetTopic($conn->resourceId);
     $conn->close();        
   }
 
