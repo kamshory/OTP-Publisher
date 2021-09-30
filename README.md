@@ -861,6 +861,8 @@ By adding an independent system, you can create an OTP system with all of the ab
 
 ```ini
 [GENERAL]
+
+; You can select one of REST, REDIS, AMQP, MQTT or WS
 method = WS
 username = kamshory
 password = kamshory
@@ -869,7 +871,6 @@ cache_max_age = 300
 cache_dir = C:\cache\otp
 
 [REST]
-
 url = http://127.0.0.1:8899/api/otp
 username = kamshory
 password = kamshory 
