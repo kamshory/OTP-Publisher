@@ -84,7 +84,6 @@ class MessageBroker implements MessageComponentInterface
 
   public function isUserMatch($username, $password)
   {
-    echo " $username, $password ";
     if(!isset($this->userPass[$username]))
     {
       return false;
@@ -105,12 +104,10 @@ class MessageBroker implements MessageComponentInterface
     {
       if(HTPasswd::check($password, $passStored))
       {
-        echo "VALID ";
         return true;
       }
       else
       {
-        echo "INVALID ";
         return false;
       }
     }

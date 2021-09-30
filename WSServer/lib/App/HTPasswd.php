@@ -62,7 +62,7 @@ class HTPasswd
     public static function check($plain, $hash) 
 	{
         $parts = explode('$', $hash);
-        return self::hash($plain, $parts[2]) === $hash;
+        return trim(self::hash($plain, $parts[2])) == trim($hash);
     }
 	public static function crypt_sha1($password)
 	{
