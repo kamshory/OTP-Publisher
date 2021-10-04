@@ -36,7 +36,7 @@ $params = array(
 $clearOTP = "329180";
 
 $response = $otppi->createOTP($receiver, $id, $reference, $lifetime, $messageFormat, $params, $subject);
-//$response = $otppi->validateOTP($receiver, $clearOTP, $reference, $params);
+//$response = $otppi->verifyOTP($receiver, $clearOTP, $reference, $params);
 
 echo json_encode($response);
 

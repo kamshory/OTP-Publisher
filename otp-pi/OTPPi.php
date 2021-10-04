@@ -77,7 +77,7 @@ class OTPPi{
         return $return;
     }
 
-    public function validateOTP($receiver, $clearOTP, $reference, $params = array())
+    public function verifyOTP($receiver, $clearOTP, $reference, $params = array())
     {
         $datetime = time();
     
@@ -87,7 +87,7 @@ class OTPPi{
         $param4 = isset($params[3])?$params[3]:'';
     
         $message = array(
-            "command"=>"validate-otp",
+            "command"=>"verify-otp",
             "data"=>array(
                 "date_time"=>$datetime,
                 "receiver"=>$receiver,

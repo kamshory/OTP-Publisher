@@ -38,9 +38,9 @@ class OTPAMQP extends OTPForwarder {
                 return $this->rejectRequest($requestJSON, ResponseCode::DUPLICATED, $e);
             }
         }
-        else if($this->manageOTP && $requestJSON['command'] ==  'validate-otp')
+        else if($this->manageOTP && $requestJSON['command'] ==  'verify-otp')
         {
-            $otpValidation = $this->validateOTP($requestJSON);
+            $otpValidation = $this->verifyOTP($requestJSON);
             return $otpValidation;
         }
         else

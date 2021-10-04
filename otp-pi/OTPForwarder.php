@@ -70,7 +70,7 @@ class OTPForwarder {
         }
         return $result;
     }
-    public function validateOTP($requestJSON)
+    public function verifyOTP($requestJSON)
     {
         $result = array();
         $datetime = $requestJSON['data']['date_time'];
@@ -115,7 +115,7 @@ class OTPForwarder {
         }
  
         $result = array(
-            'command'=>'validate-otp',
+            'command'=>'verify-otp',
             'response_code'=>$responseCode,
             'data'=>array(
                 'date_time'=>$datetime,

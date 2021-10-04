@@ -190,7 +190,7 @@ Content-length: 274
 Authorization: Basic dXNlcjpwYXNzd29yZA==
 
 {
-	"command": "validate-otp",
+	"command": "verify-otp",
 	"data": {
 		"date_time": 1629685778,
 		"receiver": "08126666666",
@@ -228,7 +228,7 @@ Content-type: application/json
 Content-length: 201
 
 {
-	"command": "validate-otp",
+	"command": "verify-otp",
 	"response_code": "000",
 	"data": {
 		"date_time": 1629685778,
@@ -981,7 +981,7 @@ $params = array(
 );
 
 
-$response = $otppi->validateOTP($receiver, $clearOTP, $reference, $params);
+$response = $otppi->verifyOTP($receiver, $clearOTP, $reference, $params);
 
 echo json_encode($response);
 
