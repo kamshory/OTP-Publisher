@@ -41,6 +41,7 @@ class MessageBroker implements MessageComponentInterface
   {
     $headers = $conn->WebSocket->request->getHeaders();
     $query = $conn->WebSocket->request->getQuery()->toArray();
+    print_r($query);
     if(isset($headers['authorization']))
     {
       $authorization = $headers['authorization'];

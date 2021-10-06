@@ -44,10 +44,70 @@ class OTPWS extends OTPForwarder {
             $otpValidation = $this->verifyOTP($requestJSON);
             return $otpValidation;
         }
+        else if($this->manageOTP && ($requestJSON['command'] ==  'get-modem-list' || $requestJSON['command'] ==  'request-ussd'))
+        {
+            $callbackTopic = $requestJSON['callback_topic'];
+            $pub = $this->publish($this->topic, json_encode($requestJSON));
+            $result = array(
+                'command'=>$requestJSON['command'],
+                'response_code'=>$pub?'0000':'1102',
+                'data'=>array(
+                    'date_time'=>$requestJSON['data']['date_time']
+                )
+            );
+            $response = $this->subecribe($callbackTopic);
+            $result = json_decode($response);
+            return $result;
+        }
         else
         {
-            return $this->requestHTTP(json_encode($requestJSON), array());
+            $pub = $this->publish($this->topic, json_encode($requestJSON));
+            $result = array(
+                'command'=>$requestJSON['command'],
+                'response_code'=>$pub?'0000':'1102',
+                'data'=>array(
+                    'date_time'=>$requestJSON['data']['date_time']
+                )
+            );
+            return $result;
         }
+    }
+    public function subecribe($topic)
+    {
+        $message = "";
+        $headers = array(
+            'Authorization: Basic '.base64_encode($this->username.':'.$this->username),
+            'Content-type: application/json'
+        );
+        
+        $path = $this->path;
+
+        $pargs = array();
+        if(stripos($path, "?") !== false)
+        {
+            $arr = explode("?", $path, 2);
+            $path = $arr[0];
+            parse_str($arr[1], $pargs);
+        }
+
+        $pargs['topic'] = $topic;
+        $arr2 = array();
+        foreach($pargs as $k=>$v)
+        {
+            $arr2[] = $k."=".rawurlencode($v);
+        }
+        $str = implode("&", $arr2);
+        $path .= "?$str";
+
+        if($sp = websocket_open($this->host, $this->port, $headers, $errstr, 10, false, false, $path)) 
+        {
+            $message = websocket_read($sp, $error_code, $error_string);
+            if($error_code == "000")
+            {
+
+            }
+        }
+        return $message;
     }
     public function publish($topic, $message)
     {
@@ -75,7 +135,7 @@ class OTPWS extends OTPForwarder {
         $str = implode("&", $arr2);
         $path .= "?$str";
 
-        if($sp = websocket_open($this->host, $this->port, $headers, $errstr, 10, false, false, $path)) 
+        if($sp = websocket_open($this->host, $this->port, $headers, $errstr, 5, false, false, $path)) 
         {
             websocket_write($sp, $message);
             return true;

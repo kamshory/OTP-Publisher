@@ -197,6 +197,39 @@ class OTPPi{
         $return = $this->request($message);
         return $return;
     }
+    public function getModemList()
+    {
+        $datetime = time();
+ 
+        $message = array(
+            "command"=>"get-modem-list",
+            "callback_topic"=>"modem-list-".mt_rand(100000, 999999),
+            "data"=>array(
+                "date_time"=>$datetime
+            )
+        );
+
+        $return = $this->request($message);
+        return $return;
+    }
+
+    public function requestUSSD($ussdCode, $modemID)
+    {
+        $datetime = time();
+ 
+        $message = array(
+            "command"=>"request-ussd",
+            "callback_topic"=>"ussd-".mt_rand(100000, 999999),
+            "data"=>array(
+                "date_time"=>$datetime,
+                "ussd_code"=>$ussdCode,
+                "modem_id"=>$modemID
+            )
+        );
+
+        $return = $this->request($message);
+        return $return;
+    }
 
 
 }
