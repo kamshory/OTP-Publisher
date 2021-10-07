@@ -17,7 +17,7 @@ class OTPMQTT extends OTPForwarder {
     }
     public function request($requestJSON)
     {
-        if($this->manageOTP && $requestJSON['command'] ==  'create-otp')
+        if($this->manageOTP && $requestJSON['command'] ==  'request-otp')
         {
             try
             {
@@ -42,10 +42,73 @@ class OTPMQTT extends OTPForwarder {
             $otpValidation = $this->verifyOTP($requestJSON);
             return $otpValidation;
         }
+        else if($this->manageOTP && $requestJSON['command'] ==  'request-ussd' || $this->manageOTP && $requestJSON['command'] ==  'get-modem-list')
+        {
+            $pub = $this->publish($this->topic, json_encode($requestJSON));
+            $callbackTopic = $requestJSON['callback_topic'];
+            $result = array(
+                'command'=>$requestJSON['command'],
+                'response_code'=>$pub?'0000':'1102',
+                'data'=>array(
+                    'date_time'=>$requestJSON['data']['date_time']
+                )
+            );
+            $response = "";
+            $i = 0;
+            do
+            {
+                $response = $this->subscribe($callbackTopic);
+                if($i > 0 && empty($response))
+                {
+                    usleep(10000);
+                }
+                $i++;
+            }
+            while(empty($response) && $i<20);           
+            $result = json_decode($response);
+            return $result;
+        }
         else
         {
-            return $this->requestHTTP(json_encode($requestJSON), array());
+            return $this->publish($this->topic, json_encode($requestJSON));
         }
+    }
+    public function subscrive($topic)
+    {
+        $username = $this->username;
+        $password = $this->passkey;
+        $connectionSettings = (new \PhpMqtt\Client\ConnectionSettings)
+
+            // The username used for authentication when connecting to the broker.
+            ->setUsername($username)
+            
+            // The password used for authentication when connecting to the broker.
+            ->setPassword($password)
+            
+            // The connect timeout defines the maximum amount of seconds the client will try to establish
+            // a socket connection with the broker. The value cannot be less than 1 second.
+            ->setConnectTimeout(60)
+            
+            // The socket timeout is the maximum amount of idle time in seconds for the socket connection.
+            // If no data is read or sent for the given amount of seconds, the socket will be closed.
+            // The value cannot be less than 1 second.
+            ->setSocketTimeout(5)
+            
+            // The resend timeout is the number of seconds the client will wait before sending a duplicate
+            // of pending messages without acknowledgement. The value cannot be less than 1 second.
+            ->setResendTimeout(10)
+            
+            // The keep alive interval is the number of seconds the client will wait without sending a message
+            // until it sends a keep alive signal (ping) to the broker. The value cannot be less than 1 second
+            // and may not be higher than 65535 seconds. A reasonable value is 10 seconds (the default).
+            ->setKeepAliveInterval(10)
+            
+            ;
+
+        $mqtt = new \PhpMqtt\Client\MqttClient($this->host, $this->port, $this->clientID);
+        $mqtt->connect($connectionSettings, true);
+        $mqtt->publish($topic, $message, 0);
+        $mqtt->disconnect();
     }
     public function publish($topic, $message)
     {

@@ -58,7 +58,7 @@ class OTPPi{
         }
     
         $message = array(
-            "command"=>"create-otp",
+            "command"=>"request-otp",
             "data"=>array(
                 "date_time"=>$datetime,
                 "expiration"=>$expiration,

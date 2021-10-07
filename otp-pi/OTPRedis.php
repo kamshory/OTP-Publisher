@@ -14,7 +14,7 @@ class OTPRedis extends OTPForwarder {
     }
     public function request($requestJSON)
     {
-        if($this->manageOTP && $requestJSON['command'] ==  'create-otp')
+        if($this->manageOTP && $requestJSON['command'] ==  'request-otp')
         {
             try
             {
@@ -39,10 +39,59 @@ class OTPRedis extends OTPForwarder {
             $otpValidation = $this->verifyOTP($requestJSON);
             return $otpValidation;
         }
+        else if($this->manageOTP && ($requestJSON['command'] ==  'get-modem-list' || $requestJSON['command'] ==  'request-ussd'))
+        {
+            $pub = $this->publish($this->topic, json_encode($requestJSON));
+            $callbackTopic = $requestJSON['callback_topic'];
+            $result = array(
+                'command'=>$requestJSON['command'],
+                'response_code'=>$pub?'0000':'1102',
+                'data'=>array(
+                    'date_time'=>$requestJSON['data']['date_time']
+                )
+            );
+            $response = "";
+            $i = 0;
+            do
+            {
+                $response = $this->subscribe($callbackTopic);
+                if($i > 0 && empty($response))
+                {
+                    usleep(10000);
+                }
+                $i++;
+            }
+            while(empty($response) && $i<20);           
+            $result = json_decode($response);
+            return $result;
+        }
         else
         {
-            return $this->requestHTTP(json_encode($requestJSON), array());
+            return $this->publish($this->topic, json_encode($requestJSON));
         }
+    }
+    public function subscribe($topic)
+    {
+        if(!empty($this->password))
+        {
+            $redis = new Predis\Client(['host' => $this->host, 'port' => $this->port, 'password' => $this->password]);
+        }
+        else
+        {
+            $redis = new Predis\Client(['host' => $this->host, 'port' => $this->port]);
+        }
+        $pubsub = $redis->pubSubLoop();
+        $pubsub->subscribe($topic);
+
+        $i = 0;
+        foreach ($pubsub as $msg) 
+        {
+            if($msg->kind == 'message' && $msg->channel == $topic)
+            {
+                return $msg->payload;
+            }
+        }
+        
     }
     public function publish($topic, $message)
     {

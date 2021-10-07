@@ -12,7 +12,7 @@ class OTPREST extends OTPForwarder{
     }
     public function request($requestJSON)
     {
-        if($this->manageOTP && $requestJSON['command'] ==  'create-otp')
+        if($this->manageOTP && $requestJSON['command'] ==  'request-otp')
         {
             try
             {
