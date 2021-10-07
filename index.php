@@ -37,7 +37,8 @@ $clearOTP = "329180";
 
 //$response = $otppi->createOTP($receiver, $id, $reference, $lifetime, $messageFormat, $params, $subject);
 //$response = $otppi->verifyOTP($receiver, $clearOTP, $reference, $params);
-$response = $otppi->requestUSSD("*888#", "20570ff7f9a4664df11e8c3dfdf4c6c4");
+//$response = $otppi->requestUSSD("*888#", "20570ff7f9a4664df11e8c3dfdf4c6c4");
+$response = $otppi->getModemList();
 echo json_encode($response);
 
 ?>

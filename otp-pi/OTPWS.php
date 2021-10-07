@@ -46,8 +46,8 @@ class OTPWS extends OTPForwarder {
         }
         else if($this->manageOTP && ($requestJSON['command'] ==  'get-modem-list' || $requestJSON['command'] ==  'request-ussd'))
         {
-            $callbackTopic = $requestJSON['callback_topic'];
             $pub = $this->publish($this->topic, json_encode($requestJSON));
+            $callbackTopic = $requestJSON['callback_topic'];
             $result = array(
                 'command'=>$requestJSON['command'],
                 'response_code'=>$pub?'0000':'1102',
