@@ -139,7 +139,7 @@ class OTPAMQP extends OTPForwarder {
         $connection = new AMQPStreamConnection($this->host, $this->port, $this->username, $this->passkey);
         $channel = $connection->channel();
 
-        $channel->queue_declare($topic, false, false, false, false);
+        $channel->queue_declare($topic, true, false, false, true);
 
         $msg = new AMQPMessage($message);
         $channel->basic_publish($msg, '', $topic);
