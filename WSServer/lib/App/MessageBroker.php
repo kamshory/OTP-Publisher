@@ -152,5 +152,4 @@ class MessageBroker implements MessageComponentInterface
   {
     unset($this->clientTopic[$resourceId]);
   }
-    
 }
