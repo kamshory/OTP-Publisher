@@ -920,10 +920,17 @@ By adding an independent system, you can create an OTP system with all of the ab
 
 ; You can select one of REST, REDIS, AMQP, MQTT or WS
 ; To use WS, start WebSocket Server with command php -q WSServer/bin/server.php
-method = WS
+method = MQTT
+username = kamshory
+password = kamshory
 manage_otp = true
-cache_max_age = 30
-cache_dir = /var/otp-cache
+
+; How long OTP cache files will be kept
+cache_max_age = 300
+
+; Directory where OTP cache will be store. 
+; The file will be deleted when expire and if OTP validation request from user is success
+cache_dir = C:\cache\otp
 
 [REST]
 url = http://127.0.0.1:8899/api/otp
@@ -936,6 +943,7 @@ port = 6379
 username = kamshory 
 password = kamshory 
 topic = sms
+callback_delay = 50
 
 [AMQP]
 host = 127.0.0.1
@@ -943,6 +951,7 @@ port = 5672
 username = guest 
 password = guest 
 topic = sms
+callback_delay = 50
 
 [MQTT]
 host = 127.0.0.1
@@ -950,6 +959,7 @@ port = 1883
 username = user
 password = pass
 topic = sms
+callback_delay = 50
 client_id = php
 
 [WS]
@@ -958,6 +968,7 @@ port = 9000
 username = kamshory
 password = kamshory
 topic = sms
+callback_delay = 50
 path = /ws/
 ```
 
