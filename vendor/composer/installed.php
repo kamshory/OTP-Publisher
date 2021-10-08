@@ -19,13 +19,15 @@
             'reference' => NULL,
             'dev_requirement' => false,
         ),
-        'myclabs/php-enum' => array(
-            'pretty_version' => '1.8.3',
-            'version' => '1.8.3.0',
+        'bluerhinos/phpmqtt' => array(
+            'pretty_version' => 'dev-master',
+            'version' => 'dev-master',
             'type' => 'library',
-            'install_path' => __DIR__ . '/../myclabs/php-enum',
-            'aliases' => array(),
-            'reference' => 'b942d263c641ddb5190929ff840c68f78713e937',
+            'install_path' => __DIR__ . '/../bluerhinos/phpmqtt',
+            'aliases' => array(
+                0 => '9999999-dev',
+            ),
+            'reference' => 'fe4b6b2fe3d1b651fe1456e147ad4f044fa70603',
             'dev_requirement' => false,
         ),
         'paragonie/constant_time_encoding' => array(
@@ -55,15 +57,6 @@
             'reference' => 'c0a8eade209b7e43d6a405303d8de716dfd02749',
             'dev_requirement' => false,
         ),
-        'php-mqtt/client' => array(
-            'pretty_version' => 'v1.1.0',
-            'version' => '1.1.0.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../php-mqtt/client',
-            'aliases' => array(),
-            'reference' => '85fe51d44a75a4e6a46c31137e94538c810515f1',
-            'dev_requirement' => false,
-        ),
         'phpseclib/phpseclib' => array(
             'pretty_version' => '3.0.10',
             'version' => '3.0.10.0',
@@ -74,21 +67,12 @@
             'dev_requirement' => false,
         ),
         'predis/predis' => array(
-            'pretty_version' => 'v1.1.7',
-            'version' => '1.1.7.0',
+            'pretty_version' => 'v1.1.9',
+            'version' => '1.1.9.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../predis/predis',
             'aliases' => array(),
-            'reference' => 'b240daa106d4e02f0c5b7079b41e31ddf66fddf8',
-            'dev_requirement' => false,
-        ),
-        'psr/log' => array(
-            'pretty_version' => '1.1.4',
-            'version' => '1.1.4.0',
-            'type' => 'library',
-            'install_path' => __DIR__ . '/../psr/log',
-            'aliases' => array(),
-            'reference' => 'd49695b909c3b7628b6289db5479a1c204601f11',
+            'reference' => 'c50c3393bb9f47fa012d0cdfb727a266b0818259',
             'dev_requirement' => false,
         ),
         'videlalvaro/php-amqplib' => array(

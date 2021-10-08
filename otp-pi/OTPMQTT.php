@@ -64,7 +64,7 @@ class OTPMQTT extends OTPForwarder {
                 }
                 $i++;
             }
-            while(empty($response) && $i<20);           
+            while(empty($response) && $i<1);           
             $result = json_decode($response);
             return $result;
         }
@@ -73,79 +73,60 @@ class OTPMQTT extends OTPForwarder {
             return $this->publish($this->topic, json_encode($requestJSON));
         }
     }
-    public function subscrive($topic)
+    public function subscribe($topic)
     {
+        $host = $this->host;
+        $port = $this->port;
+        $clientID = $this->clientID;
         $username = $this->username;
         $password = $this->passkey;
-        $connectionSettings = (new \PhpMqtt\Client\ConnectionSettings)
 
-            // The username used for authentication when connecting to the broker.
-            ->setUsername($username)
-            
-            // The password used for authentication when connecting to the broker.
-            ->setPassword($password)
-            
-            // The connect timeout defines the maximum amount of seconds the client will try to establish
-            // a socket connection with the broker. The value cannot be less than 1 second.
-            ->setConnectTimeout(60)
-            
-            // The socket timeout is the maximum amount of idle time in seconds for the socket connection.
-            // If no data is read or sent for the given amount of seconds, the socket will be closed.
-            // The value cannot be less than 1 second.
-            ->setSocketTimeout(5)
-            
-            // The resend timeout is the number of seconds the client will wait before sending a duplicate
-            // of pending messages without acknowledgement. The value cannot be less than 1 second.
-            ->setResendTimeout(10)
-            
-            // The keep alive interval is the number of seconds the client will wait without sending a message
-            // until it sends a keep alive signal (ping) to the broker. The value cannot be less than 1 second
-            // and may not be higher than 65535 seconds. A reasonable value is 10 seconds (the default).
-            ->setKeepAliveInterval(10)
-            
-            ;
+        $GLOBALS['rec_msg'] = '';
 
-        $mqtt = new \PhpMqtt\Client\MqttClient($this->host, $this->port, $this->clientID);
-        $mqtt->connect($connectionSettings, true);
-        $mqtt->publish($topic, $message, 0);
-        $mqtt->disconnect();
+        function callback($topic, $message)
+        {
+            if(!empty($message))
+            {
+                $GLOBALS['rec_msg'] = $message;
+            }
+        }
+        $timeout = 10; 
+        $mqtt = new Bluerhinos\phpMQTT($host, $port, $clientID);
+        if ($mqtt->connect(true, NULL, $username, $password)) 
+        {
+            $topics[$topic] = array(
+                "qos" => 0,
+                "function" => "callback"
+            );
+            $mqtt->subscribe($topics,0);
+            $time_start = microtime(true);
+            while($mqtt->proc()) 
+            {
+                $time_end = microtime(true);
+                if($time_end - $time_start > $timeout || !empty($GLOBALS['rec_msg']))
+                {
+                    break;
+                }
+            }
+            $mqtt->close();
+        } 
+        return $GLOBALS['rec_msg'];    
     }
+    
     public function publish($topic, $message)
     {
+        $host = $this->host;
+        $port = $this->port;
+        $clientID = $this->clientID;
         $username = $this->username;
         $password = $this->passkey;
-        $connectionSettings = (new \PhpMqtt\Client\ConnectionSettings)
-
-            // The username used for authentication when connecting to the broker.
-            ->setUsername($username)
             
-            // The password used for authentication when connecting to the broker.
-            ->setPassword($password)
-            
-            // The connect timeout defines the maximum amount of seconds the client will try to establish
-            // a socket connection with the broker. The value cannot be less than 1 second.
-            ->setConnectTimeout(60)
-            
-            // The socket timeout is the maximum amount of idle time in seconds for the socket connection.
-            // If no data is read or sent for the given amount of seconds, the socket will be closed.
-            // The value cannot be less than 1 second.
-            ->setSocketTimeout(5)
-            
-            // The resend timeout is the number of seconds the client will wait before sending a duplicate
-            // of pending messages without acknowledgement. The value cannot be less than 1 second.
-            ->setResendTimeout(10)
-            
-            // The keep alive interval is the number of seconds the client will wait without sending a message
-            // until it sends a keep alive signal (ping) to the broker. The value cannot be less than 1 second
-            // and may not be higher than 65535 seconds. A reasonable value is 10 seconds (the default).
-            ->setKeepAliveInterval(10)
-            
-            ;
-
-        $mqtt = new \PhpMqtt\Client\MqttClient($this->host, $this->port, $this->clientID);
-        $mqtt->connect($connectionSettings, true);
-        $mqtt->publish($topic, $message, 0);
-        $mqtt->disconnect();
+        $mqtt = new Bluerhinos\phpMQTT($host, $port, $clientID);
+        if ($mqtt->connect(true, NULL, $username, $password)) 
+        {
+            $mqtt->publish($topic, $message, 0);
+            $mqtt->close();
+        } 
         return true;
     }
 }

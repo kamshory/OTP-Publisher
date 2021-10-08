@@ -17,15 +17,13 @@ class ComposerStaticInitc0a68becd06f8bcfcc2ee9c644db08c8
         ),
         'P' => 
         array (
-            'Psr\\Log\\' => 8,
             'Predis\\' => 7,
-            'PhpMqtt\\Client\\' => 15,
             'PhpAmqpLib\\' => 11,
             'ParagonIE\\ConstantTime\\' => 23,
         ),
-        'M' => 
+        'B' => 
         array (
-            'MyCLabs\\Enum\\' => 13,
+            'Bluerhinos\\' => 11,
         ),
     );
 
@@ -34,17 +32,9 @@ class ComposerStaticInitc0a68becd06f8bcfcc2ee9c644db08c8
         array (
             0 => __DIR__ . '/..' . '/phpseclib/phpseclib/phpseclib',
         ),
-        'Psr\\Log\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
-        ),
         'Predis\\' => 
         array (
             0 => __DIR__ . '/..' . '/predis/predis/src',
-        ),
-        'PhpMqtt\\Client\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/php-mqtt/client/src',
         ),
         'PhpAmqpLib\\' => 
         array (
@@ -54,9 +44,9 @@ class ComposerStaticInitc0a68becd06f8bcfcc2ee9c644db08c8
         array (
             0 => __DIR__ . '/..' . '/paragonie/constant_time_encoding/src',
         ),
-        'MyCLabs\\Enum\\' => 
+        'Bluerhinos\\' => 
         array (
-            0 => __DIR__ . '/..' . '/myclabs/php-enum/src',
+            0 => __DIR__ . '/..' . '/bluerhinos/phpmqtt',
         ),
     );
 
