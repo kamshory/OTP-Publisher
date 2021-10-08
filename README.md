@@ -7,10 +7,10 @@ Message will be consumed by OTP-Pi. See OTP-Pi project on https://github.com/kam
 | Method | Send SMS | Send Email | Block MSISDN | Unblock MSISDN | Create OTP | Validate OTP |
 | ---- | ---- | ---- | ---- | ---- | ---- | ---- | 
 | REST API | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
-| RabbitMQ | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
-| Redis | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
-| Mosquitto | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
-| WebSocket | ✓ | ✓ | ✓ | ✓ | ✗ | ✗ |
+| RabbitMQ | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Redis | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| Mosquitto | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
+| WebSocket | ✓ | ✓ | ✓ | ✓ | ✓ | ✓ |
 
 # Topology
 
@@ -23,6 +23,62 @@ To use RabbitMQ, please open the link https://www.rabbitmq.com/
 To use Redis, please open the link https://redis.io/
 
 To use Mosquitto, please open the link https://mosquitto.org/
+
+# Configuration
+
+```ini
+[GENERAL]
+method = MQTT
+username = kamshory
+password = kamshory
+manage_otp = true
+
+# How long OTP cache files will be kept
+cache_max_age = 300
+
+# Directory where OTP cache will be store. The file will be deleted when expire and if OTP validation request from user is success
+cache_dir = C:\cache\otp
+
+[REST]
+url = http://127.0.0.1:8899/api/otp
+username = kamshory
+password = kamshory 
+
+[REDIS]
+host = 127.0.0.1
+port = 6379
+username = kamshory 
+password = kamshory 
+topic = sms
+callback_delay = 50
+
+[AMQP]
+host = 127.0.0.1
+port = 5672
+username = guest 
+password = guest 
+topic = sms
+callback_delay = 50
+
+[MQTT]
+host = 127.0.0.1
+port = 1883
+username = user
+password = pass
+topic = sms
+callback_delay = 50
+client_id = php
+
+[WS]
+host = 127.0.0.1
+port = 9000
+username = kamshory
+password = kamshory
+topic = sms
+callback_delay = 50
+path = /ws/
+```
+
 
 
 ![OTP-Pi Delivery](https://raw.githubusercontent.com/kamshory/OTP-Publisher/main/otp-delivery.png)
