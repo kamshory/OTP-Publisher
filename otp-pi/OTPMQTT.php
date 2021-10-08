@@ -5,6 +5,7 @@ class OTPMQTT extends OTPForwarder {
     public $port = 6379;
     public $topic = 'sms';
     public $clientID = 'php';
+    public $callbackDelay = 50;
     public function __construct($config)
     {
         parent::__construct($config);
@@ -14,6 +15,7 @@ class OTPMQTT extends OTPForwarder {
         $this->port = $config['MQTT']['port'];
         $this->topic = $config['MQTT']['topic'];
         $this->clientID = $config['MQTT']['client_id'];
+        $this->callbackDelay = $config['AMQP']['callback_delay'];
     }
     public function request($requestJSON)
     {
@@ -44,6 +46,7 @@ class OTPMQTT extends OTPForwarder {
         }
         else if($this->manageOTP && $requestJSON['command'] ==  'request-ussd' || $this->manageOTP && $requestJSON['command'] ==  'get-modem-list')
         {
+            $requestJSON['callback_delay'] = $this->callbackDelay;
             $pub = $this->publish($this->topic, json_encode($requestJSON));
             $callbackTopic = $requestJSON['callback_topic'];
             $result = array(

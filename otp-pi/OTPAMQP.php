@@ -9,6 +9,7 @@ class OTPAMQP extends OTPForwarder {
     public $topic = 'sms';
     public $waiting = true;
     public static $message = "";
+    public $callbackDelay = 50;
     public function __construct($config)
     {
         parent::__construct($config);
@@ -17,6 +18,7 @@ class OTPAMQP extends OTPForwarder {
         $this->host = $config['AMQP']['host'];
         $this->port = $config['AMQP']['port'];
         $this->topic = $config['AMQP']['topic'];
+        $this->callbackDelay = $config['AMQP']['callback_delay'];
     }
     public function request($requestJSON)
     {
@@ -47,6 +49,7 @@ class OTPAMQP extends OTPForwarder {
         }
         else if($this->manageOTP && ($requestJSON['command'] ==  'get-modem-list' || $requestJSON['command'] ==  'request-ussd'))
         {
+            $requestJSON['callback_delay'] = $this->callbackDelay;
             $pub = $this->publish($this->topic, json_encode($requestJSON));
             $callbackTopic = $requestJSON['callback_topic'];
             $result = array(

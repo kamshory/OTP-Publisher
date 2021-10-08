@@ -3,6 +3,7 @@ class OTPRedis extends OTPForwarder {
     public $username = '';
     public $port = 6379;
     public $topic = 'sms';
+    public $callbackDelay = 50;
     public function __construct($config)
     {
         parent::__construct($config);
@@ -11,6 +12,7 @@ class OTPRedis extends OTPForwarder {
         $this->host = $config['REDIS']['host'];
         $this->port = $config['REDIS']['port'];
         $this->topic = $config['REDIS']['topic'];
+        $this->callbackDelay = $config['AMQP']['callback_delay'];
     }
     public function request($requestJSON)
     {
@@ -41,6 +43,7 @@ class OTPRedis extends OTPForwarder {
         }
         else if($this->manageOTP && ($requestJSON['command'] ==  'get-modem-list' || $requestJSON['command'] ==  'request-ussd'))
         {
+            $requestJSON['callback_delay'] = $this->callbackDelay;
             $pub = $this->publish($this->topic, json_encode($requestJSON));
             $callbackTopic = $requestJSON['callback_topic'];
             $result = array(

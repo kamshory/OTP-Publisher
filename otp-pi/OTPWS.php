@@ -7,6 +7,7 @@ class OTPWS extends OTPForwarder {
     public $topic = 'sms';
     public $path = '/';
     public $clientID = 'php';
+    public $callbackDelay = 50;
     public function __construct($config)
     {
         parent::__construct($config);
@@ -16,6 +17,7 @@ class OTPWS extends OTPForwarder {
         $this->port = $config['WS']['port'];
         $this->topic = $config['WS']['topic'];
         $this->path = $config['WS']['path'];
+        $this->callbackDelay = $config['AMQP']['callback_delay'];
     }
     public function request($requestJSON)
     {
@@ -46,6 +48,7 @@ class OTPWS extends OTPForwarder {
         }
         else if($this->manageOTP && ($requestJSON['command'] ==  'get-modem-list' || $requestJSON['command'] ==  'request-ussd'))
         {
+            $requestJSON['callback_delay'] = $this->callbackDelay;
             $pub = $this->publish($this->topic, json_encode($requestJSON));
             $callbackTopic = $requestJSON['callback_topic'];
             $result = array(
