@@ -1,4 +1,7 @@
 <?php
+use \PhpMqtt\Client\ConnectionSettings;
+use \PhpMqtt\Client\MqttClient;
+
 class OTPMQTT extends OTPForwarder {
     public $username = '';
     public $passkey = '';
@@ -86,33 +89,35 @@ class OTPMQTT extends OTPForwarder {
 
         $GLOBALS['rec_msg'] = '';
 
-        function callback($topic, $message)
-        {
-            if(!empty($message))
-            {
+        $host = $this->host;
+        $port = $this->port;
+        $clientID = $this->clientID;
+        $username = $this->username;
+        $password = $this->passkey;
+        $clean_session = false;
+            
+        $connectionSettings = new ConnectionSettings();
+        $connectionSettings
+        ->setUsername($username)
+        ->setPassword($password)
+        ->setKeepAliveInterval(60)
+        ->setLastWillTopic($topic)
+        ->setLastWillMessage($topic)
+        ->setLastWillQualityOfService(1);
+        
+        try {
+            $mqtt = new MQTTClient($host, $port, $clientID);
+            $mqtt->connect($connectionSettings, $clean_session);  
+            $mqtt->subscribe($topic, function ($topic, $message) use ($mqtt) {
                 $GLOBALS['rec_msg'] = $message;
-            }
-        }
-        $timeout = 10; 
-        $mqtt = new Bluerhinos\phpMQTT($host, $port, $clientID);
-        if ($mqtt->connect(true, NULL, $username, $password)) 
-        {
-            $topics[$topic] = array(
-                "qos" => 0,
-                "function" => "callback"
-            );
-            $mqtt->subscribe($topics,0);
-            $time_start = microtime(true);
-            while($mqtt->proc()) 
-            {
-                $time_end = microtime(true);
-                if($time_end - $time_start > $timeout || !empty($GLOBALS['rec_msg']))
-                {
-                    break;
-                }
-            }
-            $mqtt->close();
+                $mqtt->interrupt();
+            }, MQTTClient::QOS_AT_MOST_ONCE);          
+            $mqtt->publish($topic, $message, MQTTClient::QOS_AT_MOST_ONCE);        
+            $mqtt->loop();      
         } 
+        catch (\Throwable $e) {
+            
+        }
         return $GLOBALS['rec_msg'];    
     }
     
@@ -123,13 +128,27 @@ class OTPMQTT extends OTPForwarder {
         $clientID = $this->clientID;
         $username = $this->username;
         $password = $this->passkey;
-            
-        $mqtt = new Bluerhinos\phpMQTT($host, $port, $clientID);
-        if ($mqtt->connect(true, NULL, $username, $password)) 
-        {
-            $mqtt->publish($topic, $message, 0);
-            $mqtt->close();
+        $clean_session = false;
+        $clean_session = false;
+
+        $connectionSettings = new ConnectionSettings();
+        $connectionSettings
+        ->setUsername($username)
+        ->setPassword($password)
+        ->setKeepAliveInterval(60)
+        ->setLastWillTopic($topic)
+        ->setLastWillMessage($topic)
+        ->setLastWillQualityOfService(1);
+        
+        try {
+            $mqtt = new MQTTClient($host, 1883, uniqid());
+            $mqtt->connect();         
+            $mqtt->publish($topic, $message, MQTTClient::QOS_AT_MOST_ONCE);         
+        
         } 
-        return true;
+        catch (\Throwable $e) {
+            
+        }
+
     }
 }

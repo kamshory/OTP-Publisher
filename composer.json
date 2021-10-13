@@ -2,6 +2,6 @@
     "require": {
         "php-amqplib/php-amqplib": ">=3.0",
         "predis/predis": "^1.1",
-        "bluerhinos/phpmqtt": "dev-master"
+        "php-mqtt/client": "^1.1"
     }
 }
