@@ -50,8 +50,9 @@ class OTPMQTT extends OTPForwarder {
         else if($this->manageOTP && $requestJSON['command'] ==  'request-ussd' || $this->manageOTP && $requestJSON['command'] ==  'get-modem-list')
         {
             $requestJSON['callback_delay'] = $this->callbackDelay;
-            $pub = $this->publish($this->topic, json_encode($requestJSON));
             $callbackTopic = $requestJSON['callback_topic'];
+            $sub = $this->subscribe($callbackTopic);
+            $pub = $this->publish($this->topic, json_encode($requestJSON));
             $result = array(
                 'command'=>$requestJSON['command'],
                 'response_code'=>$pub?'0000':'1102',
@@ -59,18 +60,22 @@ class OTPMQTT extends OTPForwarder {
                     'date_time'=>$requestJSON['data']['date_time']
                 )
             );
+            try
+            {
+                if($sub != null)
+                {
+                    $sub->loop();
+                }
+            }
+            catch(Exception $e)
+            {
+                
+            }
+            
             $response = "";
             $i = 0;
-            do
-            {
-                $response = $this->subscribe($callbackTopic);
-                if($i > 0 && empty($response))
-                {
-                    usleep(10000);
-                }
-                $i++;
-            }
-            while(empty($response) && $i<1);           
+            $response = $GLOBALS['rec_msg']; 
+                        
             $result = json_decode($response);
             return $result;
         }
@@ -112,13 +117,12 @@ class OTPMQTT extends OTPForwarder {
                 $GLOBALS['rec_msg'] = $message;
                 $mqtt->interrupt();
             }, MQTTClient::QOS_AT_MOST_ONCE);          
-            $mqtt->publish($topic, $message, MQTTClient::QOS_AT_MOST_ONCE);        
-            $mqtt->loop();      
+               
         } 
         catch (\Throwable $e) {
-            
+            return null;
         }
-        return $GLOBALS['rec_msg'];    
+        return $mqtt;    
     }
     
     public function publish($topic, $message)
