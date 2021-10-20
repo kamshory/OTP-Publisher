@@ -15,7 +15,7 @@ class OTPPi{
         $this->password = $this->config['GENERAL']['password'];
     }
 
-    private function request($payload)
+    public function request($payload)
     {
         $otpForwarder = new OTPForwarder($this->config);
         if($this->method == OTPMethod::REST)

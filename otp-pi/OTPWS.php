@@ -46,7 +46,7 @@ class OTPWS extends OTPForwarder {
             $otpValidation = $this->verifyOTP($requestJSON);
             return $otpValidation;
         }
-        else if($this->manageOTP && ($requestJSON['command'] ==  'get-modem-list' || $requestJSON['command'] ==  'request-ussd'))
+        else if($this->manageOTP && isset($requestJSON['callback_topic']))
         {
             $requestJSON['callback_delay'] = $this->callbackDelay;
             $pub = $this->publish($this->topic, json_encode($requestJSON));

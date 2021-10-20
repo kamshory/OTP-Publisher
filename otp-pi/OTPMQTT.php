@@ -47,7 +47,7 @@ class OTPMQTT extends OTPForwarder {
             $otpValidation = $this->verifyOTP($requestJSON);
             return $otpValidation;
         }
-        else if($this->manageOTP && $requestJSON['command'] ==  'request-ussd' || $this->manageOTP && $requestJSON['command'] ==  'get-modem-list')
+        else if($this->manageOTP && isset($requestJSON['callback_topic']))
         {
             $requestJSON['callback_delay'] = $this->callbackDelay;
             $callbackTopic = $requestJSON['callback_topic'];
