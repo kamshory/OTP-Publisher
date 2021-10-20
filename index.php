@@ -42,7 +42,7 @@
     .switch-label {
         position: relative;
         display: block;
-        width: 48px;
+        width: 40px;
         height: 20px;
         text-indent: -150%;
         clip: rect(0 0 0 0);
@@ -79,7 +79,7 @@
         background-color: #5bb926;
     }
     .switch-input:checked + .switch-label::after {
-        left: 28px;
+        left: 20px;
     }
 
 
