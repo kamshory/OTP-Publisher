@@ -61,8 +61,8 @@
         height: 100%;
         background-color: #dedede;
         border-radius: 9999em;
-        -webkit-transition: background-color 0.25s ease;
-        transition: background-color 0.25s ease;
+        -webkit-transition: background-color 0.10s ease;
+        transition: background-color 0.10s ease;
     }
     .switch-label::after {
         top: 0;
@@ -72,8 +72,8 @@
         border-radius: 50%;
         background-color: #fff;
         box-shadow: 0 0 2px rgba(0, 0, 0, 0.45);
-        -webkit-transition: left 0.25s ease;
-        transition: left 0.25s ease;
+        -webkit-transition: left 0.10s ease;
+        transition: left 0.10s ease;
     }
     .switch-input:checked + .switch-label::before {
         background-color: #5bb926;
@@ -81,7 +81,6 @@
     .switch-input:checked + .switch-label::after {
         left: 20px;
     }
-
 
     /*
     body {
@@ -96,7 +95,7 @@
     function sendValue(id, value)
     {
         ajax.post("api.php", {gpio:id, value:value}, function(data){
-        }, false);
+        }, true);
     }
     window.onload = function(e){
         var sw = document.querySelectorAll('.switch');
@@ -114,8 +113,7 @@
     <div class="all">
         <h3>Relay</h3>      
         <div class="form-item">
-
-
+            
             <div class="flex-container">
                 <div class="flex-item">
                     <h4>Input 1</h4>
